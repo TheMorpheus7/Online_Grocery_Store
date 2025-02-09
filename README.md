@@ -19,37 +19,51 @@ A modern, user-friendly online grocery shopping platform that brings fresh and h
 
 ## 📦 Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository  
+Run the following commands to clone the repository and navigate into the project directory:  
 ```sh
 git clone https://github.com/TheMorpheus7/Online_Grocery_Store.git
 cd Online_Grocery_Store
 2️⃣ Install Dependencies
+To install all required dependencies, run:
+
 sh
 Copy
 Edit
 npm install
 3️⃣ Set Up Environment Variables
-Create a .env file and add:
+Create a .env file in the root directory and add:
 
 ini
 Copy
 Edit
 NEXT_PUBLIC_API_BASE_URL=https://your-api-url.com
 4️⃣ Start the Development Server
+Run the following command to start the project:
+
 sh
 Copy
 Edit
 npm run dev
-The app will be available at http://localhost:3000.
+The application will be available at http://localhost:3000.
 
 🚀 Deployment
 The project can be deployed on:
 
-Vercel: vercel deploy
-Netlify: netlify deploy
-🛠 Contributing
-Fork the repo
-Create a new branch (git checkout -b feature-branch)
-Commit changes (git commit -m "Added new feature")
-Push to GitHub (git push origin feature-branch)
-Open a Pull Request
+🔹 Vercel
+Run:
+
+sh
+Copy
+Edit
+vercel deploy
+🔹 Netlify
+Run:
+
+sh
+Copy
+Edit
+netlify deploy
+typescript
+Copy
+Edit
